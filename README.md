@@ -36,25 +36,7 @@ The project is designed to reflect processes used at clearinghouses and digital 
 
 ---
 
-## Repository Structure
+## Purpose
 
-dtcc-blockchain-settlement/
-├─ data/
-│ └─ trades_raw.csv
-├─ src/
-│ ├─ init.py
-│ ├─ main.py
-│ ├─ data_loader.py
-│ ├─ trade_model.py
-│ ├─ ledger.py
-│ ├─ settlement_engine.py
-│ ├─ analytics.py
-│ └─ generate_synthetic_trades.py
-├─ docs/
-│ ├─ business_requirements.md
-│ ├─ user_stories.md
-│ ├─ process_flows.md
-│ └─ data_model.md
-├─ notebooks/
-│ └─ 01_analytics.ipynb
-└─ README.md
+This project was developed to gain hands-on experience with digital asset settlement workflows, clearing and netting logic, and business systems analysis within the context of financial market infrastructure. It is intended to demonstrate both technical implementation skills and the ability to produce supporting documentation commonly required in financial systems analysis roles.
+
