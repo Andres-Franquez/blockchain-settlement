@@ -38,4 +38,23 @@ The project is designed to reflect processes used at clearinghouses and digital 
 
 ## Repository Structure
 
-
+dtcc-blockchain-settlement/
+├─ data/
+│ └─ trades_raw.csv
+├─ src/
+│ ├─ init.py
+│ ├─ main.py
+│ ├─ data_loader.py
+│ ├─ trade_model.py
+│ ├─ ledger.py
+│ ├─ settlement_engine.py
+│ ├─ analytics.py
+│ └─ generate_synthetic_trades.py
+├─ docs/
+│ ├─ business_requirements.md
+│ ├─ user_stories.md
+│ ├─ process_flows.md
+│ └─ data_model.md
+├─ notebooks/
+│ └─ 01_analytics.ipynb
+└─ README.md
